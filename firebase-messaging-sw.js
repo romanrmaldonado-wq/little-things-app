@@ -3,14 +3,13 @@ importScripts('https://www.gstatic.com/firebasejs/10.13.0/firebase-app-compat.js
 importScripts('https://www.gstatic.com/firebasejs/10.13.0/firebase-messaging-compat.js')
 
 // Initialize Firebase in the service worker
-// These will be replaced by your actual config values
 firebase.initializeApp({
-  apiKey: 'your_api_key',
-  authDomain: 'your_project.firebaseapp.com',
-  projectId: 'your_project_id',
-  storageBucket: 'your_project.appspot.com',
-  messagingSenderId: 'your_sender_id',
-  appId: 'your_app_id'
+  apiKey: "AIzaSyAIjrlztHzXjwJqVvKyo0hF1Xql5kiiuFY",
+  authDomain: "the-little-things-79742.firebaseapp.com",
+  projectId: "the-little-things-79742",
+  storageBucket: "the-little-things-79742.firebasestorage.app",
+  messagingSenderId: "571747956247",
+  appId: "1:571747956247:web:e8a904dc3a5229d8f3ce52"
 })
 
 const messaging = firebase.messaging()
